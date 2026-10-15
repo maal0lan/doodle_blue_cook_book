@@ -1,0 +1,97 @@
+body{
+  background-color: black;
+   font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.recipe-list {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 24px;
+  color: #282828;
+  font-family: Arial, sans-serif;
+}
+
+.recipes {
+  display: grid;
+  gap: 50px;
+}
+
+.recipe-card {
+  overflow: hidden;
+  /* border: 1px solid #ddd; */
+  /* border-radius: 4px; */
+  background: #000000;
+}
+
+.recipe-image {
+  display: block;
+  width: 100%;
+  max-height: 350px;
+  border-radius: 4px;
+  object-fit: cover;
+  
+  
+}
+.hero-head {
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(0,255,0);
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.recipe-content {
+  padding: 20px;
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(0,255,0);
+}
+.ratings{
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  color: rgb(188, 248, 37);
+  text-align: right;
+  
+}
+.recipe-content h2 {
+  margin-top: 0;
+  font-size: 24px;
+}
+.sub-topic {
+  
+  font-family:"jacquard 12", system-ui;
+  font-weight: 400;
+  color: rgb(0,255,0);
+  font-size: 30px;
+}
+.infos {
+  font-family: "Geist Pixel", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+   
+    color: yellow;
+}
+.recipe-details {
+   font-family: "Geist Pixel", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  
+    color: yellow;
+}
+
+.recipe-content li {
+  margin: 8px 0;
+  font-family: "Geist Pixel", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+   
+    color: yellow;
+}
+
