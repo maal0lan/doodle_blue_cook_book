@@ -95,3 +95,75 @@ body{
     color: yellow;
 }
 
+
+
+.input-box{
+  background-color: black;
+  font-family:"jacquard 12", system-ui;
+  color: white;
+  font-size: 20px;
+  float:right;
+  border:1px solid yellow;
+  border-radius:5px;
+}
+
+.welcome{
+  font-family: "jacquard 12", sans-serif;
+  font-weight: 400;
+  color: rgb(0,255,0);
+  font-size: 30px;
+  text-align:left;
+}
+
+.submit-button{
+  background-color: black;
+  font-family:"jacquard 12", system-ui;
+  color: white;
+  font-size: 20px;
+  padding-top:20px;
+  padding-left:390px;
+  border: none;
+  border-radius:5px;
+}
+
+.submit-button:hover{
+  color:red;
+}
+
+.top-thing{
+ 
+}
+
+.about-user{
+    background-color: black;
+    font-family:"jacquard 12", system-ui;
+
+  color: white;
+  font-size: 20px;
+ text-align:right;
+  padding:10px;
+  border: none;
+  border-radius:5px;
+ 
+ 
+
+}
+.login-shi{
+
+  display:'grid'; alignSelf:'center';
+    background-color: black;
+  font-family:"jacquard 12", system-ui;
+  color: white;
+  font-size: 20px;
+  padding-top:20px;
+  border: none;
+  border-radius:5px;
+}
+
+.loading{
+  color:white;
+  font-size:100px;
+  text-align:center;
+  padding-top:250px;
+
+}
