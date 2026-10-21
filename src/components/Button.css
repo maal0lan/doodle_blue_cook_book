@@ -1,0 +1,112 @@
+/* Base button resets */
+.btn-retro {
+  font-family: "Jacquard 12", system-ui;
+  background-color: black;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+}
+
+/* Primary / Add Button (Neon Green filled) */
+.btn-retro-primary {
+  background-color: rgb(0, 255, 0);
+  color: black;
+  border: 1px solid rgb(0, 255, 0);
+  font-size: 24px;
+  padding: 6px 20px;
+  font-weight: bold;
+}
+
+.btn-retro-primary:hover:not(:disabled) {
+  background-color: black;
+  color: rgb(0, 255, 0);
+}
+
+.btn-retro-primary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Submit / General button (Border outline) */
+.btn-retro-submit {
+  color: white;
+  font-size: 20px;
+  padding: 8px 20px;
+  border: 1px solid yellow;
+}
+
+.btn-retro-submit:hover:not(:disabled) {
+  color: red;
+  border-color: red;
+}
+
+/* Pagination navigation buttons (< Prev, Next >) */
+.btn-retro-pagination {
+  color: rgb(0, 255, 0);
+  border: 1px solid rgb(0, 255, 0);
+  font-size: 24px;
+  padding: 6px 16px;
+}
+
+.btn-retro-pagination:hover:not(:disabled) {
+  background-color: rgb(0, 255, 0);
+  color: black;
+}
+
+.btn-retro-pagination:disabled {
+  border-color: #444;
+  color: #555;
+  cursor: not-allowed;
+}
+
+/* Pagination number button */
+.btn-retro-pagination-num {
+  color: yellow;
+  border: 1px solid #444;
+  font-size: 22px;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-retro-pagination-num:hover {
+  border-color: rgb(0, 255, 0);
+  color: rgb(0, 255, 0);
+}
+
+.btn-retro-pagination-num.active-page {
+  background-color: yellow;
+  color: black;
+  border-color: yellow;
+  font-weight: bold;
+}
+
+/* Logout button */
+.btn-retro-logout {
+  background: transparent;
+  color: red;
+  border: 1px solid red;
+  padding: 4px 12px;
+  font-size: 18px;
+}
+
+.btn-retro-logout:hover {
+  background-color: red;
+  color: black;
+}
+
+/* Close button (Modal) */
+.btn-retro-close {
+  background: transparent;
+  border: none;
+  color: red;
+  font-size: 28px;
+  padding: 0 4px;
+}
+
+.btn-retro-close:hover {
+  color: white;
+}
